@@ -6,7 +6,7 @@ caps = {
     deviceOrientation: 'portrait',
     platformVersion: "8.0",
     platformName: "iOS",
-    app: 'sauce-storage:TestApp-iphoneos.app.zip',
+    app: 'https://s3.amazonaws.com/appium/TestApp-iphoneos.app.zip',
     name: 'sample iPhone 6 real device test'
   }
 }
