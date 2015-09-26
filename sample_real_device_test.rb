@@ -14,6 +14,6 @@ caps = {
 @driver = Appium::Driver.new(caps)
 @driver.start_driver
 
-@driver.find_elements(:accessibility_id, "TextField1").send_keys "12"
+@driver.find_element(:accessibility_id, "TextField1").send_keys "12"
 
 @driver.driver_quit
