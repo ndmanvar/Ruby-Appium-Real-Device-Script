@@ -7,7 +7,8 @@ caps = {
     platformVersion: "8.0",
     platformName: "iOS",
     app: 'sauce-storage:TestApp-iphoneos.app.zip',
-    name: 'sample iPhone 6 real device test'
+    name: 'sample iPhone 6 real device test',
+    appiumVersion: '1.4.11'
   }
 }
 
